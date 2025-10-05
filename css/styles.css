@@ -15,6 +15,8 @@ ol {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 a {
@@ -249,7 +251,7 @@ a {
     row-gap: 48px;
 }
 
-.portfoilio-item {
+.portfolio-item {
     background-color: #fff;
     width: calc((100% - 48px) / 3);
 }
