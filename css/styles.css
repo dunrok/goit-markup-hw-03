@@ -13,6 +13,10 @@ ol {
     list-style-type: none;
 }
 
+img {
+    display: block;
+}
+
 a {
     text-decoration: none;
 }
@@ -58,11 +62,11 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .header-logo .logo-part {
     color: #2e2f42;
-    margin-right: 76px;
 }
 
 .footer-logo .logo-part {
@@ -152,7 +156,7 @@ a {
     gap: 24px;
 }
 
-.skills-item {
+.skills-item .first {
     width: calc((100% - 72px) / 4);
 }
 
@@ -173,10 +177,20 @@ a {
 
 .ourteam {
     background-color: #f4f4fd;
+    padding: 120px 0;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 
 .team-item {
     background-color: #fff;
+}
+
+.ourteam .title {
+    margin-bottom: 72px
 }
 
 .ourteam .title,
@@ -194,6 +208,11 @@ a {
     background: #fff;
 }
 
+.team-item .first {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
 .team-item-title {
     font-weight: 500;
     font-size: 20px;
@@ -201,6 +220,11 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.work-cont {
+    padding: 32px 0;
 }
 
 .team-item-pos {
