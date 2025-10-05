@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     background-color: #fff;
@@ -14,11 +18,15 @@ a {
 }
 
 .container {
-    width: 1128px;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+
 }
 
-header {
+.page-header {
     padding: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -54,6 +62,7 @@ header {
 
 .header-logo .logo-part {
     color: #2e2f42;
+    margin-right: 76px;
 }
 
 .footer-logo .logo-part {
@@ -93,7 +102,7 @@ header {
 
 .page-description {
     background-color: #2e2f42;
-    padding: 188px 472px;
+    padding: 188px 0;
 }
 
 .page-title {
@@ -103,22 +112,48 @@ header {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    width: 496px;
+    max-width: 496px;
     margin-bottom: 48px;
 }
 
 .btn-ord-svc {
+    display: block;
     background-color: #4d5ae5;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .btn-ord-svc:hover,
 .btn-ord-svc:focus {
     background-color: #404BBF;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+.skills {
+    padding: 120px 0;
+}
+
+.skills-list {
+    display: flex;
+    gap: 24px;
+}
+
+.skills-item {
+    width: calc((100% - 72px) / 4);
 }
 
 .skills-title {
@@ -127,6 +162,7 @@ header {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .skills-text {
