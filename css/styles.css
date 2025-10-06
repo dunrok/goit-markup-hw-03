@@ -72,6 +72,10 @@ img {
     margin-right: auto;
 }
 
+.header-logo {
+    margin-right: 76px;
+}
+
 .header-logo .logo-part {
     color: #2e2f42;
 }
@@ -278,7 +282,7 @@ img {
 }
 
 .work-cont {
-    padding: 32px 0;
+    padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
@@ -313,7 +317,7 @@ img {
     color: #f4f4fd;
 }
 
-.footer-logo .logo-part {
+.footer-logo {
     display: inline-block;
 }
 
